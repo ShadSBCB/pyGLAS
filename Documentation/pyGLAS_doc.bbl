@@ -1,0 +1,79 @@
+\begin{thebibliography}{10}
+
+\bibitem{Benkert2008}
+{\sc Benkert, P., Tosatto, S. C.~E., and Schomburg, D.}
+\newblock {QMEAN: A comprehensive scoring function for model quality
+  assessment}.
+\newblock {\em Proteins: Structure, Function, and Bioinformatics 71}, 1 (2008),
+  261--277.
+
+\bibitem{Cock2009}
+{\sc Cock, P. J.~A., Antao, T., Chang, J.~T., Chapman, B.~A., Cox, C.~J.,
+  Dalke, A., Friedberg, I., Hamelryck, T., Kauff, F., Wilczynski, B., and {De
+  Hoon}, M. J.~L.}
+\newblock {Biopython: Freely available Python tools for computational molecular
+  biology and bioinformatics}.
+\newblock {\em Bioinformatics 25}, 11 (2009), 1422--1423.
+
+\bibitem{Cvicek2016}
+{\sc Cvicek, V., Goddard, W.~A., and Abrol, R.}
+\newblock {Structure-Based Sequence Alignment of the Transmembrane Domains of
+  All Human GPCRs: Phylogenetic, Structural and Functional Implications}.
+\newblock {\em PLoS Computational Biology\/} (2016).
+
+\bibitem{Ebejer2013}
+{\sc Ebejer, J.~P., Hill, J.~R., Kelm, S., Shi, J., and Deane, C.~M.}
+\newblock {Memoir: template-based structure prediction for membrane proteins.}
+\newblock {\em Nucleic acids research 41}, Web Server issue (2013), W379--W383.
+
+\bibitem{Fenalti2014}
+{\sc Fenalti, G., Giguere, P.~M., Katritch, V., Huang, X.-P., Thompson, A.~A.,
+  Cherezov, V., Roth, B.~L., and Stevens, R.~C.}
+\newblock {Molecular control of {\$}\backslashdelta{\$}-opioid receptor
+  signalling}.
+\newblock {\em Nature 506}, 7487 (2014), 191--196.
+
+\bibitem{Heifetz2013}
+{\sc Heifetz, A., Barker, O., Morris, G.~B., Law, R.~J., Slack, M., and Biggin,
+  P.~C.}
+\newblock {Toward an Understanding of Agonist Binding to Human Orexin‑1 and
+  Orexin‑2 Receptors with G‑Protein-Coupled Receptor Modeling and
+  Site-Directed Mutagenesis}.
+\newblock {\em Biochem 52}, 46 (2013), 8246--826.
+
+\bibitem{McKinney2010}
+{\sc McKinney, W.}
+\newblock {Data Structures for Statistical Computing in Python}.
+\newblock {\em Proceedings of the 9th Python in Science Conference 1697900},
+  Scipy (2010), 51--56.
+
+\bibitem{Michauld-Agrawal2011}
+{\sc Michaud-Agrawal, N., Denning, E.~J., Woolf, T.~B., and Beckstein, O.}
+\newblock {MDAnalysis: A Toolkit for the Analysis of Molecular Dynamics
+  Simulations}.
+\newblock {\em J Comp Chem 32\/} (2011), 2319--2327.
+
+\bibitem{Sali1993}
+{\sc Sali, A., and Blundell, T.}
+\newblock {Comparative Protein Modelling by Satisfaction of Spatial
+  Restraints}.
+\newblock {\em J Mol Bio 234\/} (1993), 779--815.
+
+\bibitem{Shen2006}
+{\sc Shen, M.-y., and Sali, A.}
+\newblock {Statistical potential for assessment and prediction of protein
+  structures}.
+\newblock {\em Protein Science 15}, 11 (2006), 2507--2524.
+
+\bibitem{Venkatakrishnan2013}
+{\sc Venkatakrishnan, A.~J., Deupi, X., Lebon, G., Tate, C.~G., Schertler,
+  G.~F., and Babu, M.~M.}
+\newblock {Molecular signatures of G-protein-coupled receptors}.
+\newblock {\em Nature 494}, 7436 (2013), 185--194.
+
+\bibitem{Walt2011}
+{\sc Walt, S., Colbert, S.~C., and Varoquaux, G.}
+\newblock {The NumPy Array : A Structure for Efficient Numerical Computation}.
+\newblock {\em Comp Sci Eng\/} (2011), 22--30.
+
+\end{thebibliography}

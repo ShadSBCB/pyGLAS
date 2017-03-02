@@ -1,0 +1,11 @@
+2016/11/24
+
+These steps were followed for preparing the receptor for pyGLAS_v1:
+
+Receptor file was downloaded from the PDB (Code.pdb)
+All non-receptor atoms were removed from the PDB file (Code_Only_Protein.pdb)
+Receptor was sent to the GPCRDb for residue numbering (Code_Only_Receptor_GPCRDB.pdb)
+Protein is ready for pyGLAS!
+
+There are likely to be problems when assigning residue numbering from the GPCRDb. In that case, one needs to assign the residue indeces manually.
+Instructions on how to do this can be found in Documentation/Manual_CHICOs.txt

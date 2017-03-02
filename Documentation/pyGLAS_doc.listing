@@ -1,0 +1,3 @@
+	$ for f in *.pdb; echo $f "\t" \
+	$(cat $(basename $f '.pdb').txt) \
+	>> GLAS_comparison.tsv
