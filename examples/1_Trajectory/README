@@ -1,0 +1,10 @@
+2016/12/07
+
+==// Misc \\==
+
+Receptor_GPCRDB.pdb = HA_hDORcx_EnMin_NVT_NPT_GPCRDB.pdb
+
+Trajectory_skip25.xtc = HA_hDORcx_EnMin_NVT_NPT_Prod1_noPBC_skip25.xtc
+Trajectory_skip250.xtc = HA_hDORcx_EnMin_NVT_NPT_Prod1_noPBC_skip250.xtc
+Trajectory_skip500.xtc = HA_hDORcx_EnMin_NVT_NPT_Prod1_noPBC_skip500.xtc
+Trajectory_skip1000.xtc = HA_hDORcx_EnMin_NVT_NPT_Prod1_noPBC_skip1000.xtc

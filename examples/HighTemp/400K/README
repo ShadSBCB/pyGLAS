@@ -1,0 +1,4 @@
+2016/12/05
+
+Receptor_400K_GPCRDB.pdb = Holo_Apo_forDocking_EnMin_NVT_NPT_HT400_Protein_GPCRDB.pdb
+Trajectory_400K.xtc = Holo_Apo_forDocking_EnMin_NVT_NPT_Prod_HT400_noPB_Protein_skip50.xtc
