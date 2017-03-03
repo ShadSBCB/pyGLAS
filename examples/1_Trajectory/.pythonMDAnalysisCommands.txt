@@ -1,0 +1,8 @@
+For trajectory examination
+
+2016/09/05
+
+system = MDAnalysis.Universe(topol, trj)
+
+To access number of frames, 
+	system = MDAnalysis.Universe(topol, trj).trajectory.n_frames

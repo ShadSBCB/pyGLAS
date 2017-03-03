@@ -38,7 +38,7 @@ parser.add_argument('--nachos', dest='nachosfile', default=None, help='Add list 
                                                                       '(see examples/Single_Topology for an example.')
 parser.add_argument('--no_nachos', dest='no_nachos', action='store_true', help='NACHOs will not be calculated.')
 parser.add_argument('--no_chicos', dest='no_chicos', action='store_true', help='CHICOs will not be calculated.')
-parser.add_argument('--format', dest='run_type', default="short", help='Specifies run type. Please see documentation'
+parser.add_argument('--format', dest='run_type', default="short", help='Specifies run type. Please see documentation '
                                                                        'for more information.')
 parser.add_argument('--cutoff', dest='cutoff', default=4.0, help='Defines cutoff. Default is 4A.')
 
@@ -775,7 +775,7 @@ if args.trj is not None:
 
     if args.no_chicos is not True:
         # Runs dynamic_GLAS and outputs dGLAS, a time resolved GLAS for additional analysis of protein stability.
-        dynamic_GLAS(system, chicosDict)
+        dGLAS, time_chicos = dynamic_GLAS(system, chicosDict)
 
     # If NACHOs are given, this returns time_nachos; useful in simulations that bias receptors to certain states.
     if args.no_nachos is not True:
@@ -795,7 +795,7 @@ if args.trj is not None:
 
         if args.no_chicos is not True:
             # Returns 24 plots with time resolved contacts
-            long_dynamic_GLAS(system, dGLAS, distsDict)
+            long_dynamic_GLAS(system, dGLAS, time_chicos)
 
         elif args.no_nachos is not True:
             # Returns 15 plots with time resolved contacts
