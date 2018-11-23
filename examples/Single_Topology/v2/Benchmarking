@@ -1,0 +1,34 @@
+Benchmarking done using cProfile.
+
+From https://docs.python.org/3/library/profile.html:
+
+The file cProfile can also be invoked as a script to profile another script. For example:
+
+$ python -m cProfile [-o output_file] [-s sort_order] (-m module | myscript.py)
+
+-o writes the profile results to a file instead of to stdout
+
+-s specifies one of the sort_stats() sort values to sort the output by. This only applies when -o is not supplied.
+
+[ -m only for Python 3+ ]
+
+
+Benchmarks for system in this directory
+
+Short:
+
+$ time python ../../../scripts/pyGLAS_v2.py -r 4N6H.pdb --cons position50.txt -l pyGLAS_short_bench.log
+
+1.26s user 
+0.37s system 
+29% cpu 
+5.449 total
+
+Long:
+
+$ time python ../../../scripts/pyGLAS_v2.py -r 4N6H.pdb --cons position50.txt -l pyGLAS_long_bench.log --format long
+
+1.29s user 
+0.33s system 
+28% cpu 
+5.677 total
